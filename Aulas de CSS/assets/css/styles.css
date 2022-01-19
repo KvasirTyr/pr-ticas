@@ -1,0 +1,55 @@
+
+
+/*.menu{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    background: white;
+    width: 100%;
+    font-size: 40px;*/
+}
+.menu .posição {
+    position: absolute;
+    right: 10px;
+    top: 0;
+}
+.menu .posição .f1{
+    
+    object-position: right;
+}
+.menu .posição .f2{
+
+    object-position: right;
+}
+.menu .posição .f3{
+
+    object-position: right;
+}
+.sticky{
+    position: sticky;
+    top: 0;
+    background: gray; 
+}
+.filha1 {
+    background: red;
+    height: 700px;
+    width: 100%;
+    Position: relative;
+    z-index: 1;
+    text-align: 50%, 50%;
+}
+.filha2 {
+    background: blue;
+    height: 700px;
+    width: 100%;
+    Position: relative;
+    z-index: 1;
+}
+.filha3 {
+    background: pink;
+    height: 700px;
+    width: 100%;
+    Position: relative;
+    z-index: 1;
+}
