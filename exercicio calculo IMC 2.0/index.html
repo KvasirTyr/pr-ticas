@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <section class="container">
+        <h1>Tabela IMC</h1>
+        <div class = "grid">
+            <div class="col">
+                <div class="col-content">
+                    <p>
+                    <b>IMC</b><br>
+                        <18,5 <br>
+                        18,5 - 24,9<br>
+                        25,0 - 29,9<br>
+                        30,0 - 34,9<br>
+                        35,0 - 39,9<br>
+                        >=40
+                    </p>
+                </div>
+            </div>
+            <div class="col">
+                <div class="col-content">
+                    <p>
+                    <b>CLASSIFICAÇÃO</b><br>
+                        Peso Baixo<br>
+                        Peso Normal<br>
+                        Sobrepeso<br>
+                        Obesidade (grau 1)<br>
+                        Obesidade Severa (grau 2)<br>
+                        Obesidade Mórbida (grau 3)
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div><h1><b>Calcule seu IMC</b></h1></div>
+        <form class="form" action="">
+            <label for="input-peso"> Seu peso:</label>
+            <input type="text" id="input-peso">
+
+            <label for="input-altura"> Sua altura:</label>
+            <input type="text" id="input-altura">
+
+            <button id="enviar">Enviar</button>
+        </form>
+
+        <div >Resultado:</div>
+        <div  class="resultFinal"></div>
+    </section>
+
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
